@@ -12,8 +12,6 @@ class BitVector:
     
     def show(self, index):
         return (self.vector[index // 64] >> (index % 64)) & 1
-        return (self.vector[index // 64] >> (index % 64)) & 1
-
 
 
 b = BitVector(989)
